@@ -1,4 +1,4 @@
-function longestConsecutive(nums) {
+function longestConsecutive(nums) { 
   const numSet = new Set(nums);
   let longestStreak = 0;
   for (let num of numSet) {
